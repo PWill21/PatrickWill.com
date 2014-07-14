@@ -1,0 +1,191 @@
+
+
+article, aside, figure, footer, header, nav, section {
+	display: block;
+}
+
+/* reset selector */
+* {
+	margin: 0;
+	padding: 0;
+	color: black;
+}
+
+.current_page {
+	text-decoration: none;
+	color: transparent;
+	text-shadow: 0 0 4px #6CA6CD;
+}
+html {
+	background-image: url("../images/backgrounds/lblue065.jpg");
+}
+
+a {
+	color: red;
+}
+
+a:link {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+body {
+	width: 1000px;
+/*  border: 1px green solid; */
+	margin: auto;
+	
+}
+
+header {
+	height: 100px;
+}
+
+nav {
+	padding: 0 0 30px 0;
+}
+nav ul {
+/*	background-color: #00AEEF; */
+/*	border: 2px solid red; */
+	width: auto;
+	margin: auto;
+	text-align: center;
+}
+
+a {
+	color: #36f;
+}
+
+nav a {
+	color: black;
+}
+
+nav li {
+	color: black;
+	text-decoration: line-through;
+	text-align: center;
+	display: inline;
+	padding: 0px 10px;
+	border-right: 1px solid blue;
+	border-bottom: 1px solid blue;
+	border-radius: 0 5px 8px 0;
+	font-family: 'Antic Slab', serif;
+	font-size: 1.1em;
+}
+/*
+nav li a:visited {
+	color: black;
+}
+nav li a:hover {
+	color: #424EFE;
+	text-decoration: none;
+}
+*/
+img {
+	float: left;
+	padding-right: 10px;
+}
+section {
+	
+	width: 75%; 
+	margin: auto;
+/*	float: right; */
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 10px 10px 10px 10px;
+	border-right: 2px solid black;
+	border-bottom: 1px solid black;
+	border-radius: 0px 35px 35px 35px;
+	box-shadow: 2px 2px 3px 5px silver;
+	line-height: 1.5em;
+}
+
+section img {
+	padding: 0px;
+	margin: 0 20px 4px 0;
+	border-radius: 25px;
+	box-shadow: 5px 5px 1px #7D7D7D;
+}
+
+section li p {
+	padding: 3px 0px 3px 20px;
+}
+
+section li {
+	margin-left: 25px;
+}
+
+#intro p {
+	font-family: "Philosopher", sans-serif; 
+	font-size: 2.1em;
+	line-height: 1.5em;
+}
+
+
+caption {
+	font-size: 1.7em;
+	font-weight: 600;
+}
+th {
+	background-color: rgba(101, 144, 255, 0.2);
+}
+
+td {
+	font-family: 'Amethysta', serif; 
+	padding: 3px 20px 3px 10px; 
+}
+.service_name {
+	text-align: left;
+}
+.onsite_col, .offsite_col, .remote_col {
+	text-align: center;
+}
+.y {
+	background-image: url("../images/red-40143_150.png");
+	background-size: 15px 15px;
+}
+
+.n {
+	background-image: url("../images/red-40320_150.png");
+	background-size: 10px 10px;
+}
+.y, .n {
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: right; /* positions asterisk */
+}
+.price {
+	font-size: 1.5em;
+	font-family: 'Alegreya', serif; 
+}
+footer {
+	margin-top: 70px;
+	clear: both;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#portfolio_list li {
+	list-style-type: none;
+}
+
+audio {
+	display: block; /* prevents audio controls boxes from lining up next to each other */
+}
+
+.footnote {
+	font-size: x-small;
+}
+
+.resume_list li {
+	margin-left: 5%;
+}
+
+.experience {
+	padding: 25px 0 25px 0;
+}
+/*
+.resume_border {
+	border-top: 5px solid blue;
+}
+*/

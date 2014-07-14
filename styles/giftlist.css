@@ -1,0 +1,7 @@
+body {
+	margin: 2% 15% 0 15%;
+}
+
+.bought {
+	text-decoration: line-through;
+}

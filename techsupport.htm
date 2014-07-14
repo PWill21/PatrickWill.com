@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link href='http://fonts.googleapis.com/css?family=Fauna+One|Advent+Pro|Kaushan+Script|Alegreya|PT+Sans+Caption|Average|EB+Garamond|Telex|Habibi|Life+Savers|Muli|Text+Me+One|Baumans|Cabin+Condensed|Roboto+Condensed|Titillium+Web|Donegal+One|Roboto|Noto+Sans|Special+Elite|Julius+Sans+One|Inder|Marmelad|Overlock|Philosopher|Flamenco|Share|Share+Tech|Averia+Gruesa+Libre|Cuprum|Galdeano|Didact+Gothic|Antic+Slab|Ruluko|Scada|Actor|Pontano+Sans|Play|Belleza|Raleway' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Alef|Titillium+Web|PT+Sans+Caption|Muli|Noto+Sans|Anaheim|Sintony|Marmelad|Source+Sans+Pro|Istok+Web|Quattrocento+Sans|News+Cycle|Lato|Quicksand|Galdeano|Cabin|Scada|Actor|Pontano+Sans' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Numans|Amethysta|Alegreya' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="styles/style1.css">
+		<title>Home of Patrick Will</title>
+		<meta name="description" content="Home and landing page for Patrick Will. Portfolio, Resume, and other infoormation.">
+		<script>
+			document.createElement(article);
+			document.createElement(aside);
+			document.createElement(footer);
+			document.createElement(figure);
+			document.createElement(header);
+			document.createElement(nav);
+			document.createElement(section);
+		</script>
+	</head>
+	
+	<body>
+		<header>		
+
+		</header>
+		
+		
+
+		<nav id="main">
+			<ul>
+				<li class="current_page"><a href="index.htm">Home</a></li>
+				<li><a href="">About Me</a></li>
+				<li><a href="portfolio.htm">Portfolio</a></li>
+				<li style="text-decoration: none"><a href="services.htm">Services</a></li>
+				<li><a href="">Resume</a></li>
+				<li><a href="">Skills</a></li>
+				<li><a href="">Interests</a></li>
+				<li><a href="">Resources</a></li>
+				<li style="text-decoration: none"><a href="contact.htm">Contact</a></li>
+			</ul>
+		</nav>
+		
+		<p style="width: 75%; margin: auto; font-size: .7em;">*Please note that this site is in it's very early stages of development, and a 
+			continuing work in progress. I am working hard on it every day, so please come 
+			back in a few days to see some additions and improvements!</p>
+		
+		<section>
+        <h1>Tech Support Guides</h1>
+        <br />
+        <h3>Obtaining System Information</h3>
+            <ol>
+                <li>From the Start Menu, type &#34;run&#34; and hit Enter.</li>
+                <li>In the prompt, type &#34;msinfo32&#34 and click OK
+                    <p>This will run the System Information tool, which provides an extremely in-depth overview of the system.</p></li>
+                <li>From the File menu, Save the file. Use your name as the filename. Using your name isn't mandatory, just makes things a bit
+                    easier.</li>
+                <li>Make sure the file extension (Save As Type) is set for &#34;System Information File .NFO&#34;.</li>
+                <li>Save it to your Desktop so that it's easy to find.</li>
+            </ol>
+        <br />
+        <h3>BSOD (Blue Screen Of Death)</h3>
+            <p>Although there are countless causes for a BSOD, Windows is usually able to document the reason it crashed. Two ways in which it
+                can do this is:
+                <ul>
+                    <li><strong>A STOP error code</strong>
+                        <p>This complicated-looking code is shown on the blue screen, about 10 digits in length, starting with &#34;0x&#34;. The
+                           number of possible STOP codes is <a href="http://www.wixdb.com/bsod-error-codes-complete-list-updated-2013.html">extensive
+                           to say the least</a>, but a BSOD will only show one, and provides a good starting point as to why the system has crashed.
+                           Don't worry about this. I saw it in the screenshot you sent me, so I have this info already.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+                <ul>
+                    <li><strong>Obtaining and reading a minidump(.dmp) file</strong>
+                        <p>Whenever Windows crashes and displays a BSOD, it shuts itself down. However, the blue screen itself can vary on how long it is
+                        displayed. Sometimes it's visible for a split second, other times it may never actually disappear. However, Windows will always
+                        generate and store a &#34;minidump&#34; file in the C:\Windows folder. This file/folder may be hidden, so it needs to be
+                        located manually (usually a search will find it pretty fast). This file is much more detailed about what caused the crash, but
+                        still very hard to interpret depending on the cause. It may show everything, it may show nothing. This is the second file I want to
+                        look at.
+                        </p>
+                        <ol>
+                            <li>From the Start Menu, click on &#34;Computer&#34;.</li>
+                            <li>Click on Local Disk (C:)</li>
+                            <li>Type &#34;minidump&#34; in the Search bar (upper right).</li>
+                            <li>The results should show a folder called Minidump. Open this folder. These are the dump files. How many depends on how
+                            many times Windows has blue-screened, but they all should end in .dmp</li>
+                            <li>Find the one with the latest date. Copy and paste it to the Desktop.</li>
+                        </ol>
+                    </li>
+                </ul>
+		</section>	
+
+		<footer>
+			<address>&copy; Patrick Will | 16702 Farmington Rd. Livonia, MI 48154 | 734.748.6306 | 
+				<a href="mailto:patrick.j.will@gmail.com">patrick.j.will@gmail.com</a></address>		
+		</footer>
+	</body>
+</html>

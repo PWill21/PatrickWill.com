@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf8" standalone="no"?>
+<svg viewBox="0 0 442.79211 410.38434" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<inkscape:path-effect/>
+<linearGradient>
+<stop offset="0" stop-color="#b8b8b8"/>
+<stop offset="1" stop-color="#b8b8b8" stop-opacity="0"/>
+</linearGradient>
+<linearGradient gradientUnits="userSpaceOnUse" x1="-579.27094" x2="-868.08416" xlink:href="#linearGradient3996"/>
+<linearGradient gradientUnits="userSpaceOnUse" x1="-484.07019" x2="-725.41818" xlink:href="#linearGradient3996"/>
+</defs>
+<title>Check mark</title>
+<g transform="matrix(.48018,0,0,.48018,843.77604,509.03983)">
+<path d="m-1747.2444-549.29769 287.7212,333.8986c146.6009-298.83075 326.0615-573.74326 614.51553-834.74651-215.88563,121.81746-453.85923,353.1417-657.14093,639.3803l-245.0958-138.53239z" fill="#139e1c" stroke="#000" stroke-width="19.89183"/>
+</g>
+</svg>
