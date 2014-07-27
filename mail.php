@@ -28,7 +28,7 @@
 			<ul>
 				<li><a href="index.htm">Home</a></li>
 				<li><a href="">About Me</a></li>
-				<li><a href="portfolio.htm">Portfolio</a></li>
+				<li style="text-decoration: none"><a href="portfolio.html">Portfolio</a></li>
 				<li><a href="services.htm">Services</a></li>
 				<li><a href="resume.htm">Resume</a></li>
 				<li><a href="">Skills</a></li>
